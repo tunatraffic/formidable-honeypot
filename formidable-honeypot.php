@@ -15,12 +15,11 @@ if ( !class_exists( "WPBizFrmHoneypot" ) )
 
 		static $styles_required;
 
-		function WPBizFrmHoneypot() // Constructor
-		{
-			register_activation_hook( __FILE__, array($this, 'run_on_activate') );
+		function __construct() {
+			register_activation_hook(__FILE__, array($this, 'run_on_activate'));
 			
-			add_action('frm_entry_form', array( $this, 'add_honeypot'));
-			add_filter('frm_validate_entry', array( $this, 'validate_honeypot') );
+			add_action('frm_entry_form', array($this, 'add_honeypot'));
+			add_filter('frm_validate_entry', array($this, 'validate_honeypot'));
 		}
 
 		function run_on_activate(){
