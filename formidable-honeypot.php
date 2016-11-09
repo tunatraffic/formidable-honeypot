@@ -4,7 +4,7 @@ Plugin Name: Formidable Honeypot
 Plugin URI: http://wpbiz.co/
 Description: Add invisible SPAM protection to your Formidable forms.
 Author: Ryan Pilling
-Version: 0.2
+Version: 0.3
 Author URI: http://wpbiz.co/
 */
 
