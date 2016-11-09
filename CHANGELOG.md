@@ -1,4 +1,7 @@
 
+## 3.1
+- Fix deprecated constructor
+
 ## 0.3
 - Initial fork
 - Fix `Illegal string offset 'form_id'`
