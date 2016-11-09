@@ -1,0 +1,9 @@
+{
+    "name": "tunatraffic/formidable-honeypot",
+    "description": "Add SPAM protection to your Formidable forms without annoying your visitors with Captchas, math, or other fields.",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "^1.0"
+    },
+    "license": "GPL-2.0+"
+}
